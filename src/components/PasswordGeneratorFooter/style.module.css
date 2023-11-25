@@ -1,7 +1,12 @@
 .root {
+    position: relative;
     padding: 40px;
     display: flex;
-}
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} 
 
 .icon{
     position:absolute;
