@@ -1,7 +1,7 @@
 import s from './style.module.css'
 
 export function PasswordGeneratorBody () {
-    return <form className={s.root}>
+    return <form>
         <div className={s.grid_container}> 
         <div className={s.grid_item}>
         SIZE
@@ -25,7 +25,9 @@ export function PasswordGeneratorBody () {
             <input type='checkbox' defaultChecked/>
         </div>
         </div>
+        <div className={s.btn_container}>
         <button className={s.btn_generate}> GENERATE </button>
+        </div>
     </form>
 
 }
