@@ -5,8 +5,10 @@ import s from './style.module.css'
 
 export function PasswordGeneratorCard () {
     return <div className={s.root}>
+        <div className={s.main}>
         <PasswordGeneratorHeader/>
         <PasswordGeneratorBody/>
+        </div>
         <PasswordGeneratorFooter/>
     </div>
 }
