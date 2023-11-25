@@ -1,3 +1,10 @@
+.root{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+
 .title {
     font-size: 20px;
     font-weight: bold;
@@ -6,5 +13,5 @@
 .icon {
     height: 20px;
     width: 20px;
-    
+
 }
