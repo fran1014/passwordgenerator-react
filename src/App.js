@@ -1,8 +1,9 @@
+import { PasswordGeneratorCard } from "./components/PasswordGeneratorCard/PasswordGeneratorCard";
 
 function App() {
   return (
     <div >
-      Hello World
+     <PasswordGeneratorCard/>
     </div>
   );
 }
