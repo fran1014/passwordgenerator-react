@@ -4,7 +4,7 @@ import { PasswordGeneratorHeader } from '../PasswordGeneratorHeader/PasswordGene
 import s from './style.module.css'
 
 export function PasswordGeneratorCard () {
-    return <div>
+    return <div className={s.root}>
         <PasswordGeneratorHeader/>
         <PasswordGeneratorBody/>
         <PasswordGeneratorFooter/>
