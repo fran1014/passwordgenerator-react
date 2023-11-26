@@ -1,4 +1,7 @@
+import { generatePassword } from '../../utils/password';
 import s from './style.module.css'
+
+
 
 export function PasswordGeneratorBody (props) {
     
@@ -9,8 +12,8 @@ export function PasswordGeneratorBody (props) {
         formData[key]=value;
         })
 
-        let generatedPassword = Math.random();
-        props.onSubmit(generatedPassword)
+    
+        props.onSubmit(generatePassword(formData))
 
 
     }
