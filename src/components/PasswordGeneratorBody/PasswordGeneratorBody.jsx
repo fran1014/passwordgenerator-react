@@ -14,8 +14,6 @@ export function PasswordGeneratorBody (props) {
 
     
         props.onSubmit(generatePassword(formData))
-
-
     }
 
 
