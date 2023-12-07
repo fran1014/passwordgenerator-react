@@ -16,7 +16,7 @@ return text[Math.floor(Math.random()*text.lenght)];
 }
 
 export function generatePassword (config){
-    let result = '';
+    let result = "";
     let charToSkip=1;
   const LOWERCASE = "abcdefghijklmnopqrstuvwxyz";
   const UPPERCASE = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
